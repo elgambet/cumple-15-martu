@@ -32,7 +32,7 @@ function Loading() {
         Cargando
       </p>
       <img
-        src={"/cumple-15-martu/img/loading.png"}
+        src={"/img/loading.png"}
         className={`w-[50px] h-[50px] ${styles["rotating-image"]} ml-auto mr-auto`}
       />
 

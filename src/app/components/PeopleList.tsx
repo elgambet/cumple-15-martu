@@ -38,8 +38,8 @@ function PeopleList({ family, toggleValue, touched, confirm }: Props) {
               <img
                 src={
                   el.asiste === "si"
-                    ? "/cumple-15-martu/img/selected.png"
-                    : "/cumple-15-martu/img/not-selected.png"
+                    ? "/img/selected.png"
+                    : "/img/not-selected.png"
                 }
                 className="w-[30px] h-[30px] inline-block ml-2"
                 onClick={() => toggleValue("asiste", el)}
@@ -49,8 +49,8 @@ function PeopleList({ family, toggleValue, touched, confirm }: Props) {
                 <img
                   src={
                     el.vegetariano === "si"
-                      ? "/cumple-15-martu/img/veggie-selected.png"
-                      : "/cumple-15-martu/img/veggie-not-selected.png"
+                      ? "/img/veggie-selected.png"
+                      : "/img/veggie-not-selected.png"
                   }
                   className={`w-[25px] h-[30px] inline-block ml-2 ${
                     el.vegetariano === "si"
@@ -65,8 +65,8 @@ function PeopleList({ family, toggleValue, touched, confirm }: Props) {
                 <img
                   src={
                     el.celiaco === "si"
-                      ? "/cumple-15-martu/img/sintac-selected.png"
-                      : "/cumple-15-martu/img/sintac-not-selected.png"
+                      ? "/img/sintac-selected.png"
+                      : "/img/sintac-not-selected.png"
                   }
                   className={`w-[30px] h-[30px] inline-block ml-2 ${
                     el.celiaco === "si"

@@ -4,30 +4,30 @@
 
 @font-face {
   font-family: BestMoment;
-  src: url(/cumple-15-martu/fonts/BestMoment.woff) format("woff"),
-    url(/cumple-15-martu/fonts/BestMoment.otf) format("otf"),
-    url(/cumple-15-martu/fonts/BestMoment.ttf) format("ttf");
+  src: url(/fonts/BestMoment.woff) format("woff"),
+    url(/fonts/BestMoment.otf) format("otf"),
+    url(/fonts/BestMoment.ttf) format("ttf");
 }
 
 @font-face {
   font-family: ChopinScript;
-  src: url(/cumple-15-martu/fonts/ChopinScript.woff) format("woff"),
-    url(/cumple-15-martu/fonts/ChopinScript.otf) format("otf"),
-    url(/cumple-15-martu/fonts/ChopinScript.ttf) format("ttf");
+  src: url(/fonts/ChopinScript.woff) format("woff"),
+    url(/fonts/ChopinScript.otf) format("otf"),
+    url(/fonts/ChopinScript.ttf) format("ttf");
 }
 
 @font-face {
   font-family: SafiraMarch;
-  src: url(/cumple-15-martu/fonts/SafiraMarch.woff) format("woff"),
-    url(/cumple-15-martu/fonts/SafiraMarch.otf) format("otf"),
-    url(/cumple-15-martu/fonts/SafiraMarch.ttf) format("ttf");
+  src: url(/fonts/SafiraMarch.woff) format("woff"),
+    url(/fonts/SafiraMarch.otf) format("otf"),
+    url(/fonts/SafiraMarch.ttf) format("ttf");
 }
 
 @font-face {
   font-family: LibreBaskerville;
-  src: url(/cumple-15-martu/fonts/LibreBaskerville-Regular.woff) format("woff"),
-    url(/cumple-15-martu/fonts/LibreBaskerville-Regular.otf) format("otf"),
-    url(/cumple-15-martu/fonts/LibreBaskerville-Regular.ttf) format("ttf");
+  src: url(/fonts/LibreBaskerville-Regular.woff) format("woff"),
+    url(/fonts/LibreBaskerville-Regular.otf) format("otf"),
+    url(/fonts/LibreBaskerville-Regular.ttf) format("ttf");
 }
 
 :root {

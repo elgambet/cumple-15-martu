@@ -26,10 +26,7 @@ function End({ success, error }: Props) {
         <p className="text-lg font-['LibreBaskerville'] flex flex-row justify-center gap-2">
           Av. Díaz Vélez 1497{" "}
           <a href="https://maps.app.goo.gl/TPcKnZ4SgEgY7viN8" target="_blank">
-            <img
-              src="/cumple-15-martu/img/google-maps.png"
-              className="w-[25px] h-[25px]"
-            />
+            <img src="/img/google-maps.png" className="w-[25px] h-[25px]" />
           </a>
         </p>
         <p className="text-lg font-['LibreBaskerville']">Isili Recepciones</p>
