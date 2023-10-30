@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/cumple-15-martu",
+  basePath: "",
 };
 
 module.exports = nextConfig;
