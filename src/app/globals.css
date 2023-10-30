@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: BestMoment;
+  src: url(/cumple-15-martu/fonts/BestMoment.woff) format("woff"),
+    url(/cumple-15-martu/fonts/BestMoment.otf) format("otf"),
+    url(/cumple-15-martu/fonts/BestMoment.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: ChopinScript;
+  src: url(/cumple-15-martu/fonts/ChopinScript.woff) format("woff"),
+    url(/cumple-15-martu/fonts/ChopinScript.otf) format("otf"),
+    url(/cumple-15-martu/fonts/ChopinScript.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: SafiraMarch;
+  src: url(/cumple-15-martu/fonts/SafiraMarch.woff) format("woff"),
+    url(/cumple-15-martu/fonts/SafiraMarch.otf) format("otf"),
+    url(/cumple-15-martu/fonts/SafiraMarch.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(/cumple-15-martu/fonts/LibreBaskerville-Regular.woff) format("woff"),
+    url(/cumple-15-martu/fonts/LibreBaskerville-Regular.otf) format("otf"),
+    url(/cumple-15-martu/fonts/LibreBaskerville-Regular.ttf) format("ttf");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +52,5 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: "LibreBaskerville";
 }
