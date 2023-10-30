@@ -52,7 +52,11 @@ function PeopleList({ family, toggleValue, touched, confirm }: Props) {
                       ? "/cumple-15-martu/img/veggie-selected.png"
                       : "/cumple-15-martu/img/veggie-not-selected.png"
                   }
-                  className="w-[25px] h-[30px] inline-block ml-2"
+                  className={`w-[25px] h-[30px] inline-block ml-2 ${
+                    el.vegetariano === "si"
+                      ? "border-b-[2px] border-b-red-700 pb-1"
+                      : ""
+                  }`}
                   onClick={() => toggleValue("vegetariano", el)}
                 />
               )}
@@ -64,7 +68,11 @@ function PeopleList({ family, toggleValue, touched, confirm }: Props) {
                       ? "/cumple-15-martu/img/sintac-selected.png"
                       : "/cumple-15-martu/img/sintac-not-selected.png"
                   }
-                  className="w-[30px] h-[30px] inline-block ml-2"
+                  className={`w-[30px] h-[30px] inline-block ml-2 ${
+                    el.celiaco === "si"
+                      ? "border-b-[2px] border-b-red-700 pb-1"
+                      : ""
+                  }`}
                   onClick={() => toggleValue("celiaco", el)}
                 />
               )}
