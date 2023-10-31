@@ -12,7 +12,7 @@ import PeopleList from "./components/PeopleList";
 import End from "./components/End";
 
 function Home() {
-  const { data, error, loading, success, save } = useData();
+  const { data, error, loading, success, save, setSuccess } = useData();
 
   const [inNextScreen, setInNextScreen] = useState(false);
 
@@ -21,9 +21,9 @@ function Home() {
 
   const [family, setFamily] = useState<Post[]>([]);
 
-  const familyId = selected
-    ? data.find((el) => el.nombre === selected)!.familia
-    : null;
+  const found = data.find((el) => el.nombre === selected);
+
+  const familyId = found?.familia ?? null;
 
   useEffect(() => {
     if (familyId) {
@@ -33,6 +33,14 @@ function Home() {
       setFamily([]);
     }
   }, [data, familyId]);
+
+  function onConfirm() {
+    if (!!found && !!found.asiste) {
+      setSuccess(true);
+    } else {
+      setConfirming(true);
+    }
+  }
 
   function toggleValue(col: "asiste" | "vegetariano" | "celiaco", el: Post) {
     const newFamily = family.map((current) => {
@@ -80,7 +88,7 @@ function Home() {
         <AutoComplete
           data={data}
           selected={selected}
-          setConfirming={setConfirming}
+          setConfirming={onConfirm}
           setSelected={setSelected}
         />
       )}

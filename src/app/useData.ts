@@ -31,7 +31,7 @@ function useData() {
     setLoading(false);
   }, []);
 
-  return { loading, success, error, data, save };
+  return { loading, success, error, data, save, setSuccess };
 }
 
 export default useData;
