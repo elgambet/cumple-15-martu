@@ -31,6 +31,16 @@ function End({ success, error }: Props) {
         </p>
         <p className="text-lg font-['LibreBaskerville']">Isili Recepciones</p>
       </div>
+
+      <div className="max-w-md ml-auto mr-auto">
+        <p className="text-lg font-['LibreBaskerville'] mb-2">
+          El mejor regalo es tu asistencia, pero si querés tener un detalle te
+          dejo mí Alias ☺️
+        </p>
+        <p>
+          <strong>martu.garcia.gam</strong>
+        </p>
+      </div>
     </div>
   );
 }
